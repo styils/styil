@@ -135,8 +135,8 @@ importers:
         specifier: 5.5.2
         version: 5.5.2
       vite:
-        specifier: 4.5.3
-        version: 4.5.3(@types/node@18.19.39)(terser@5.28.1)
+        specifier: 4.5.9
+        version: 4.5.9(@types/node@18.19.39)(terser@5.28.1)
       vue:
         specifier: 3.4.29
         version: 3.4.29(typescript@5.5.2)
@@ -219,7 +219,7 @@ importers:
         version: 5.1.34
       '@vitejs/plugin-react':
         specifier: 4.3.1
-        version: 4.3.1(vite@4.5.3(@types/node@18.19.39)(terser@5.28.1))
+        version: 4.3.1(vite@4.5.9(@types/node@18.19.39)(terser@5.28.1))
 
   examples/solid:
     devDependencies:
@@ -228,7 +228,7 @@ importers:
         version: 1.1.1(@babel/core@7.24.7)
       vite-plugin-solid:
         specifier: ^2.7.0
-        version: 2.7.0(solid-js@1.7.6)(vite@4.5.3(@types/node@18.19.39)(terser@5.28.1))
+        version: 2.7.0(solid-js@1.7.6)(vite@4.5.9(@types/node@18.19.39)(terser@5.28.1))
 
   examples/vue:
     devDependencies:
@@ -240,7 +240,7 @@ importers:
         version: link:../../vite-plugin
       '@vitejs/plugin-vue':
         specifier: ^4.2.3
-        version: 4.2.3(vite@4.5.3(@types/node@18.19.39)(terser@5.28.1))(vue@3.4.29(typescript@5.5.2))
+        version: 4.2.3(vite@4.5.9(@types/node@18.19.39)(terser@5.28.1))(vue@3.4.29(typescript@5.5.2))
 
   vite-plugin:
     dependencies:
@@ -3124,6 +3124,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -4326,10 +4327,6 @@ packages:
     resolution: {integrity: sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.4.31:
-    resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
-    engines: {node: ^10 || ^12 || >=14}
-
   postcss@8.4.39:
     resolution: {integrity: sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==}
     engines: {node: ^10 || ^12 || >=14}
@@ -5123,8 +5120,8 @@ packages:
       terser:
         optional: true
 
-  vite@4.5.3:
-    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
+  vite@4.5.9:
+    resolution: {integrity: sha512-qK9W4xjgD3gXbC0NmdNFFnVFLMWSNiR3swj957yutwzzN16xF/E7nmtAyp1rT9hviDroQANjE4HK3H4WqWdFtw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5703,7 +5700,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.6
       chalk: 2.4.2
       js-tokens: 4.0.0
-      picocolors: 1.0.0
+      picocolors: 1.0.1
 
   '@babel/highlight@7.24.7':
     dependencies:
@@ -7569,20 +7566,20 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react@4.3.1(vite@4.5.3(@types/node@18.19.39)(terser@5.28.1))':
+  '@vitejs/plugin-react@4.3.1(vite@4.5.9(@types/node@18.19.39)(terser@5.28.1))':
     dependencies:
       '@babel/core': 7.24.7
       '@babel/plugin-transform-react-jsx-self': 7.24.6(@babel/core@7.24.7)
       '@babel/plugin-transform-react-jsx-source': 7.24.6(@babel/core@7.24.7)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 4.5.3(@types/node@18.19.39)(terser@5.28.1)
+      vite: 4.5.9(@types/node@18.19.39)(terser@5.28.1)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-vue@4.2.3(vite@4.5.3(@types/node@18.19.39)(terser@5.28.1))(vue@3.4.29(typescript@5.5.2))':
+  '@vitejs/plugin-vue@4.2.3(vite@4.5.9(@types/node@18.19.39)(terser@5.28.1))(vue@3.4.29(typescript@5.5.2))':
     dependencies:
-      vite: 4.5.3(@types/node@18.19.39)(terser@5.28.1)
+      vite: 4.5.9(@types/node@18.19.39)(terser@5.28.1)
       vue: 3.4.29(typescript@5.5.2)
 
   '@vue/compiler-core@3.4.29':
@@ -10230,12 +10227,6 @@ snapshots:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  postcss@8.4.31:
-    dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-
   postcss@8.4.39:
     dependencies:
       nanoid: 3.3.7
@@ -11031,7 +11022,7 @@ snapshots:
     dependencies:
       browserslist: 4.22.2
       escalade: 3.1.1
-      picocolors: 1.0.0
+      picocolors: 1.0.1
 
   uri-js@4.4.1:
     dependencies:
@@ -11059,7 +11050,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-solid@2.7.0(solid-js@1.7.6)(vite@4.5.3(@types/node@18.19.39)(terser@5.28.1)):
+  vite-plugin-solid@2.7.0(solid-js@1.7.6)(vite@4.5.9(@types/node@18.19.39)(terser@5.28.1)):
     dependencies:
       '@babel/core': 7.24.7
       '@babel/preset-typescript': 7.18.6(@babel/core@7.24.7)
@@ -11068,8 +11059,8 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.7.6
       solid-refresh: 0.5.3(solid-js@1.7.6)
-      vite: 4.5.3(@types/node@18.19.39)(terser@5.28.1)
-      vitefu: 0.2.4(vite@4.5.3(@types/node@18.19.39)(terser@5.28.1))
+      vite: 4.5.9(@types/node@18.19.39)(terser@5.28.1)
+      vitefu: 0.2.4(vite@4.5.9(@types/node@18.19.39)(terser@5.28.1))
     transitivePeerDependencies:
       - supports-color
 
@@ -11084,19 +11075,19 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.28.1
 
-  vite@4.5.3(@types/node@18.19.39)(terser@5.28.1):
+  vite@4.5.9(@types/node@18.19.39)(terser@5.28.1):
     dependencies:
       esbuild: 0.18.20
-      postcss: 8.4.31
+      postcss: 8.4.39
       rollup: 3.29.4
     optionalDependencies:
       '@types/node': 18.19.39
       fsevents: 2.3.3
       terser: 5.28.1
 
-  vitefu@0.2.4(vite@4.5.3(@types/node@18.19.39)(terser@5.28.1)):
+  vitefu@0.2.4(vite@4.5.9(@types/node@18.19.39)(terser@5.28.1)):
     optionalDependencies:
-      vite: 4.5.3(@types/node@18.19.39)(terser@5.28.1)
+      vite: 4.5.9(@types/node@18.19.39)(terser@5.28.1)
 
   void-elements@3.1.0: {}
 
